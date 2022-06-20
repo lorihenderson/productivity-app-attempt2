@@ -17,18 +17,19 @@ code {
 .create{
   max-width: 400px;
   margin: 0 auto;
-  text-align: center
+  text-align: center;
+  background-color: #DEB887 !important;
 }
 
 .create label {
-  text-align:left;
+  text-align:center;
   display: block;
 }
 
 .create h2 {
   font-family:'Monda', sans-serif;
   font-size: 20px;
-  color: #9A918C;
+  color: #FFFFFF;
   margin-bottom:30px;
 }
 
@@ -38,7 +39,7 @@ code {
   margin: 10px 0;
   border: 1px solid #FAB131;
   box-sizing: border-box;
-  display: block;
+  display: center;
 }
 
 .create button{
@@ -48,4 +49,8 @@ code {
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+hr {
+  background-color: #DEB887 !important;
 }

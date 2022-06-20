@@ -24,8 +24,10 @@ function App() {
 
   return (
     <div className="App">
+      <div className="Screen">
           <NavBar />
           <Form />
+      </div>
     </div>
   );
 }

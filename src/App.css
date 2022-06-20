@@ -32,3 +32,12 @@
   color: #FFFFFF !important;
 }
 
+table {
+  border: 2px solid #FAB131;
+  width: 400px;
+  height: 775px;
+}
+
+.Screen {
+  background-image: url("https://cdn.shopify.com/s/files/1/1935/2049/files/Ponderlily-daily-planner-monthly_1000x1000.png?v=1640765066");
+ }

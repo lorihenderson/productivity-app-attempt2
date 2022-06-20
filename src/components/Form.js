@@ -20,7 +20,8 @@ const Form= () => {
 
     return(
         <div className='create'>
-            <h2>Add a Task</h2>
+            <table>
+            <h2>Add a Task</h2><div>
             <form onSubmit={handleSubmit}>
                 <label>Task Name:</label>
                 <input
@@ -45,9 +46,12 @@ const Form= () => {
                     <option value='moderate'>Moderate</option>
                     <option value='low'>Low</option>
                 </select>
-                <button>Add Task</button>
+                <hr/>
+                <button className="taskbtn">Add</button>
                 
             </form>
+            </div>
+            </table>
         </div>
     )
 }
