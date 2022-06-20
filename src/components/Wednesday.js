@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Wednesday= ({ task }) => {
     const {name, duration, priority, day} = task

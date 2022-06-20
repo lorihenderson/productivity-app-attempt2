@@ -3,14 +3,14 @@ import Form from './components/Form'
 import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Monday from './components/Monday'
-import Tuesday from './components/Tuesday'
-import Wednesday from './components/Wednesday'
-import Thursday from './components/Thursday'
-import Friday from './components/Friday'
-import Saturday from './components/Saturday'
-import Sunday from './components/Sunday'
-import { Switch, Route } from "react-router-dom";
+// import Monday from './components/Monday'
+// import Tuesday from './components/Tuesday'
+// import Wednesday from './components/Wednesday'
+// import Thursday from './components/Thursday'
+// import Friday from './components/Friday'
+// import Saturday from './components/Saturday'
+// import Sunday from './components/Sunday'
+// import { Switch, Route } from "react-router-dom";
 
 
 
@@ -36,10 +36,10 @@ function App() {
  return (
    <div className="App">
       <div className="Screen">
-          <NavBar />
+          {/* <NavBar /> */}
           <Form onAddTask={onAddTask}/>
 
-          <Switch>
+          {/* <Switch>
         <Route exact path="/">
           <App />
         </Route>
@@ -80,7 +80,7 @@ function App() {
             return <Sunday key={task.id} task={task}/>
           }
         
-          })}
+          })} */}
 
       </div>
     </div>
