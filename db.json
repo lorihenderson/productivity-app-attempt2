@@ -1,10 +1,72 @@
 {
-    "tasks": [
-      {
-        "id": 1,
-        "name": "",
-        "duration": "",
-        "priority": ""
-      }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    },
+    {
+      "name": "Brush Teeth ",
+      "duration": "5 minutes",
+      "priority": "high",
+      "id": 2
+    }
+  ],
+  "sunday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "monday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "tuesday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "wednesday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "thursday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "friday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ],
+  "saturday": [
+    {
+      "id": 1,
+      "name": "",
+      "duration": "",
+      "priority": ""
+    }
+  ]
 }
