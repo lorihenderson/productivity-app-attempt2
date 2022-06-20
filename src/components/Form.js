@@ -1,50 +1,55 @@
 import React, { useState } from 'react'
 
-function Form () {
+const Form= () => {
+    const [name, setName] = useState('');
+    const [duration, setDuration] = useState('')
+    const [priority, setPriority] = useState('select-priority')
 
-    // const initialState = ("")
-    const [task, setTask] = useState("")
-    
-
-    const handleSubmit = event => {
-        event.preventDefault();
-        // onAddTask(setTask)
-        // setTask(initialState)
-        const task = { name, duration, priority }
-
-
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const task = { name, duration, priority };
+        
         fetch('http://localhost:3000/tasks', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            method:'POST',
+            headers: { "Content-Type": "application/json"},
             body: JSON.stringify(task)
-        }).then(()=> {
-            console.log("new Task Added")
+        }).then(() => {
+            console.log('New task added!')
         })
-
-
     }
 
-    const handleTask = (e) => {
-        console.log(e.target.value)
-        // const { name, value } = e.target
-        // setTask((previousTaskData) => ({...previousTaskData, [name]:value}))
-    }
-
-
-    return (
-        <>
-        <form onSubmit={handleSubmit}>
-                <fieldset>
-                    <label>
-                        <p>Add A Task</p>
-                        <input type="text" name="name" value="value" onChange={handleTask}/>
-
-                    </label>
-                </fieldset>
-                <button type="submit">Add</button>
+    return(
+        <div className='create'>
+            <h2>Add a Task</h2>
+            <form onSubmit={handleSubmit}>
+                <label>Task Name:</label>
+                <input
+                    type='text'
+                    required
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+                <label>Duration:</label>
+                <input
+                    type='text'
+                    required
+                    value={duration}
+                    onChange={(e) => setDuration(e.target.value)}
+                />
+                <label>Priority:</label>
+                <select
+                    value={priority}
+                    onChange={(e) => setPriority(e.target.value) }>
+                    <option value='select-priority'>Select priority level</option>
+                    <option value='high'>High</option>
+                    <option value='moderate'>Moderate</option>
+                    <option value='low'>Low</option>
+                </select>
+                <button>Add Task</button>
+                
             </form>
-        </>
+        </div>
     )
 }
 
-export default Form;
+export default Form

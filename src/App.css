@@ -16,3 +16,19 @@
 .App-link {
   color: #61dafb;
 }
+
+.btn {
+  margin: 50px 50px 50px 50px;
+  background-color: #FAB131!important;
+  color: #FFFFFF !important;
+}
+
+.list {
+  background-color: #A9A9A9 !important;
+}
+
+.btncolor {
+  background-color: #7CB6B7 !important;
+  color: #FFFFFF !important;
+}
+

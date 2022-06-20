@@ -1,6 +1,9 @@
 import './App.css';
 import Form from './components/Form'
 import React, { useEffect, useState } from 'react';
+import NavBar from './components/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
@@ -21,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+          <NavBar />
           <Form />
     </div>
   );

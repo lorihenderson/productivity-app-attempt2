@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(89, 89, 185)
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* blog form */
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.create label {
+  text-align:left;
+  display: block;
+}
+
+.create h2 {
+  font-family:'Monda', sans-serif;
+  font-size: 20px;
+  color: #9A918C;
+  margin-bottom:30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 200px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #FAB131;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background: #7CB6B7;
+  color: rgb(255, 255, 255);
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
