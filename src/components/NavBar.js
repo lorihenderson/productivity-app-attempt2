@@ -1,39 +1,25 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import ListGroup from 'react-bootstrap/ListGroup';
+import {NavLink} from 'react-router-dom'
 
 function NavBar () {
-
-    return (
-        <>
-        <div>
-    <ListGroup className="list">
-    <ListGroup.Item variant="warning" className="list">
-        <Button className="btn" variant="light" size="lg" active>
-        Sunday
-        </Button>
-        <Button className="btncolor" variant="primary" size="lg" active>
-        Monday
-        </Button>
-        <Button className="btn" variant="light" size="lg" active>
-        Tuesday
-        </Button>
-        <Button className="btncolor" variant="primary" size="lg" active>
-        Wednesday
-        </Button>
-        <Button className="btn" variant="light" size="lg" active>
-        Thursday
-        </Button>
-        <Button className="btncolor" variant="primary" size="lg" active>
-        Friday
-        </Button>
-        <Button className="btn" variant="light" size="lg" active>
-        Saturday
-        </Button>
-        </ListGroup.Item>
-        </ListGroup>
+    return(
+        <div id="routes">
+            <NavLink exact className="button" to="/">
+              App
+            </NavLink>
+            <NavLink exact className="button" to="/Monday">
+              Monday
+            </NavLink>
+            <NavLink exact className="button" to="/Tuesday">
+              Tuesday
+            </NavLink>
+            <NavLink exact className="button" to="/Wednesday">
+              Wednesday
+            </NavLink>
+            <NavLink exact className="button" to="/Thursday">
+              Thursday
+            </NavLink>
         </div>
-        </>
     )
 }
 

@@ -7,66 +7,33 @@
       "priority": ""
     },
     {
-      "name": "Brush Teeth ",
-      "duration": "5 minutes",
-      "priority": "high",
+      "name": "Run",
+      "duration": "30 minutes",
+      "priority": "low",
+      "day": "tuesday",
       "id": 2
-    }
-  ],
-  "sunday": [
+    },
     {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "monday": [
+      "name": "Eat Brekkie ",
+      "duration": "25 minutes",
+      "priority": "high",
+      "day": "sunday",
+      "id": 3
+    },
     {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "tuesday": [
+      "name": "Make lunch",
+      "duration": "10 minutes",
+      "priority": "moderate",
+      "day": "thursday",
+      "id": 4
+    },
     {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "wednesday": [
-    {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "thursday": [
-    {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "friday": [
-    {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
-    }
-  ],
-  "saturday": [
-    {
-      "id": 1,
-      "name": "",
-      "duration": "",
-      "priority": ""
+      "name": "Make Bed",
+      "duration": "10 minutes",
+      "priority": "high",
+      "day": "tuesday",
+      "id": 5
     }
   ]
+
 }

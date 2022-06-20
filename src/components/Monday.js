@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Sunday= ({ task }) => {
+const Monday= ({ task }) => {
     const {name, duration, priority, day} = task
    return(
     <div>
@@ -12,4 +12,4 @@ const Sunday= ({ task }) => {
    )
 }
 
-export default Sunday
+export default Monday
