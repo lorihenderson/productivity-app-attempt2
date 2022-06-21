@@ -17,10 +17,13 @@ function NavBar ( {onAddTask}) {
         <header>
             <nav>
                 <div id="routes">
-                   <NavLink exact className="button-even" to="/">
+                   <NavLink exact className="button-odd" to="/">
                         Homepage
                     </NavLink>
                     
+                    <NavLink exact className="button-even" to="/Form">
+                        Form
+                    </NavLink>
                     <NavLink exact className="button-odd" to="/Monday">
                         Monday
                     </NavLink>
@@ -42,9 +45,6 @@ function NavBar ( {onAddTask}) {
                     <NavLink exact className="button-odd" to="/Sunday">
                         Sunday
                     </NavLink>   
-                    <NavLink exact className="button-even" to="/Form">
-                        Form
-                    </NavLink>
                     <Switch>
                     
                     <Route exact path="/Sunday">
