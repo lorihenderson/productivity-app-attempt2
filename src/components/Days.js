@@ -7,9 +7,9 @@ const Monday = (props, name, duration, priority) => {
             
             <ul>
                 <li className="separate">
-                    <li className="separate">{props.name}</li>
-                    <li className="separate">Duration:{props.duration}</li>
-                    <li className="separate">Priority:{props.priority}</li> 
+                    <li className="a">{props.name}</li>
+                    <li className="a">Duration:{props.duration}</li>
+                    <li className="a">Priority:{props.priority}</li> 
                 </li>
             </ul>
         </div>
