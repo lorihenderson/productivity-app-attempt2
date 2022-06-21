@@ -31,6 +31,7 @@ const Form= ({ onAddTask, setDayTask }) => {
                 body: JSON.stringify(formData) 
     }) 
     .then(res => res.json())
+    // .then(data => console.log(data))
     .then(task => onAddTask(task))
     const dataStored = setFormData(initialState)
     // setDayTask(dataStored)

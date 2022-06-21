@@ -68,6 +68,34 @@
       "priority": "high",
       "day": "monday",
       "id": 10
+    },
+    {
+      "name": "Sleep",
+      "duration": "20 min",
+      "priority": "high",
+      "day": "sunday",
+      "id": 11
+    },
+    {
+      "name": "Eat",
+      "duration": "30 min",
+      "priority": "moderate",
+      "day": "wednesday",
+      "id": 12
+    },
+    {
+      "name": "sssss",
+      "duration": "10 min",
+      "priority": "low",
+      "day": "thursday",
+      "id": 13
+    },
+    {
+      "name": "ccccc",
+      "duration": "40 min",
+      "priority": "moderate",
+      "day": "monday",
+      "id": 14
     }
   ]
 }

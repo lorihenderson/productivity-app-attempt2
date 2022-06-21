@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Monday = (props) => {
+const Monday = (props, dayTask, name) => {
     return (
-        <table className='create'>
+        // <table className='create'>
         <div>
             <p style={{color: props.color}}>Hello Today is {props.children} </p>
             <ul>
-                <li></li>
+                <li>{props.name}</li>
             </ul>
         </div>
-        </table>
+        // </table>
     )
   }
 

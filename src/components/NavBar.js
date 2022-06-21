@@ -8,8 +8,9 @@ import Friday from './Friday'
 import Saturday from './Saturday'
 import Sunday from './Sunday'
 import Form from './Form'
+import DaysContainer from './DaysContainer';
 
-function NavBar ( {onAddTask}) {
+function NavBar ( {onAddTask, taskValues}) {
 
     const [dayTask, setDayTask] = useState([])
     console.log(setDayTask)
@@ -48,10 +49,11 @@ function NavBar ( {onAddTask}) {
                     <Switch>
                     
                     <Route exact path="/Sunday">
-                        <Sunday> Sunday </Sunday>
+                        <Sunday> Sunday 
+                        </Sunday>
                     </Route>
                     <Route exact path="/Monday">
-                        <Monday> Monday </Monday>
+                        <DaysContainer taskValues={taskValues} day="monday" />
                     </Route>
                     <Route exact path="/Tuesday">
                         <Tuesday> Tuesday </Tuesday>
