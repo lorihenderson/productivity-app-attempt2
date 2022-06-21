@@ -24,7 +24,7 @@ function NavBar ( {onAddTask, taskValues}) {
                     </NavLink>
                     
                     <NavLink exact className="button-even" to="/Form">
-                        Form
+                        Add A Task
                     </NavLink>
                     <NavLink exact className="button-odd" to="/Monday">
                         Monday

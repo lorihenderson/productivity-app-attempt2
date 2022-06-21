@@ -18,7 +18,9 @@ code {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-  background-color: #DEB887 !important;
+  background-color: #006680; opacity: 80%;
+  background-image: url(https://img.freepik.com/free-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=826);
+  background-position: center;
 }
 
 .create label {
@@ -29,7 +31,7 @@ code {
 .create h2 {
   font-family:'Monda', sans-serif;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #996633;
   margin-bottom:20px;
   margin-top: 20px;
 }
@@ -38,22 +40,18 @@ code {
   width: 200px;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 10px solid #FAB131;
+  border: 8px solid#91918e;
   box-sizing: border-box;
   display: center;
 }
 
 .create button{
-  background: #7CB6B7;
-  color: rgb(255, 255, 255);
+  background: #996633;
+  color: rgba(255, 255, 255, 0.872);
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-}
-
-hr {
-  background-color: #DEB887 !important;
 }
 
 /*NavBar styling*/
@@ -66,11 +64,13 @@ nav {
 #routes {
   font-size: x-large;
   font-family: 'Monda', sans-serif;
+  background-image: url(https://wallpaperaccess.com/full/3009250.jpg);
+  background-position: left;
 }
 
 .button-even {
-  background-color: #7CB6B7;
-  color: #ffffff;
+  background-color: black; opacity: 50%;
+  color: white;
   padding: 30px 30px;
   text-align: center;
   text-decoration: none;
@@ -82,7 +82,7 @@ nav {
 }
 
 .button-odd {
-  background-color: #FAB131;
+  background-color: black; opacity: 50%;
   color: white;
   padding: 30px 30px;
   text-align: center;
@@ -94,3 +94,13 @@ nav {
   color: #7CB6B7;
 }
 
+::marker {
+  text-decoration: none;
+}
+
+/*colors we like
+
+#7CB6B7 -- seagreen blue
+
+#996633 -- brown 50% opacity
+*/

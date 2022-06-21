@@ -74,7 +74,7 @@ const Form= ({ onAddTask, setDayTask }) => {
                     <option value='friday'>Friday</option>
                     <option value='saturday'>Saturday</option>
                 </select>
-                <hr/>
+                <div></div>
                 <button type="submit" className="taskbtn">Add</button>
                 
             </form>

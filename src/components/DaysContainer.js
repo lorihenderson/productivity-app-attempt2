@@ -5,14 +5,16 @@ function DaysContainer({taskValues, day}) {
     let tasks = taskValues.filter((task) => task.day == day )
     console.log(tasks)
     tasks = tasks.map((task) => {
-        return <Days name={task.name} />
+        return <Days name={task.name} duration={task.duration} priority={task.priority}/>
     })
     return (
         
-        <div className="create"><table>
-            Today's Tasks
-            {tasks}
-        </table></div>
+        <div className="create">
+            <table>
+                Today's Tasks
+                {tasks}
+            </table>
+        </div>
         
     )
 }

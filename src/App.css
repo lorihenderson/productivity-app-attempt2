@@ -33,7 +33,6 @@
 }
 
 table {
-  border: 2px solid #FAB131;
   width: 400px;
   height: 775px;
 }
@@ -44,5 +43,16 @@ table {
 
  .homepage {
   background-image: url(https://wallpaperaccess.com/full/3009250.jpg);
-  max-width:fit-content
+  height: 700px;
+  background-position: center;
+  
+ }
+
+ ul {
+  list-style-type: none;
+ }
+
+ .separate{
+  border: 8px solid #61dafb !important;
+  text-align: center;
  }

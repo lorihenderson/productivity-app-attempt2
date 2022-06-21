@@ -7,102 +7,18 @@
       "priority": ""
     },
     {
-      "name": "Run",
-      "duration": "30 minutes",
-      "priority": "low",
-      "day": "tuesday",
+      "name": "Make Bed",
+      "duration": "8 minutes",
+      "priority": "moderate",
+      "day": "monday",
       "id": 2
     },
     {
-      "name": "Eat Brekkie ",
-      "duration": "25 minutes",
+      "name": "Eat Breakfast",
+      "duration": "30 minutes",
       "priority": "high",
-      "day": "sunday",
+      "day": "monday",
       "id": 3
-    },
-    {
-      "name": "Make lunch",
-      "duration": "10 minutes",
-      "priority": "moderate",
-      "day": "thursday",
-      "id": 4
-    },
-    {
-      "name": "Make Bed",
-      "duration": "10 minutes",
-      "priority": "high",
-      "day": "tuesday",
-      "id": 5
-    },
-    {
-      "name": "asfasf",
-      "duration": "asfasf",
-      "priority": "high",
-      "day": "sunday",
-      "id": 6
-    },
-    {
-      "name": "asfasfasfasf",
-      "duration": "asfasfasfasf",
-      "priority": "moderate",
-      "day": "sunday",
-      "id": 7
-    },
-    {
-      "name": "asfafs",
-      "duration": "asfasf",
-      "priority": "low",
-      "day": "tuesday",
-      "id": 8
-    },
-    {
-      "name": "aaaaaaaa",
-      "duration": "aaaaaaaaa",
-      "priority": "moderate",
-      "day": "wednesday",
-      "id": 9
-    },
-    {
-      "name": "Sleep",
-      "duration": "20 min",
-      "priority": "high",
-      "day": "monday",
-      "id": 10
-    },
-    {
-      "name": "Sleep",
-      "duration": "20 min",
-      "priority": "high",
-      "day": "sunday",
-      "id": 11
-    },
-    {
-      "name": "Eat",
-      "duration": "30 min",
-      "priority": "moderate",
-      "day": "wednesday",
-      "id": 12
-    },
-    {
-      "name": "sssss",
-      "duration": "10 min",
-      "priority": "low",
-      "day": "thursday",
-      "id": 13
-    },
-    {
-      "name": "ccccc",
-      "duration": "40 min",
-      "priority": "moderate",
-      "day": "monday",
-      "id": 14
-    },
-    {
-      "name": "Thursday TASK SLEEP",
-      "duration": "10 min",
-      "priority": "high",
-      "day": "thursday",
-      "id": 15
     }
   ]
 }
