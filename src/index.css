@@ -28,16 +28,17 @@ code {
 
 .create h2 {
   font-family:'Monda', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #FFFFFF;
-  margin-bottom:30px;
+  margin-bottom:20px;
+  margin-top: 20px;
 }
 
 .create input, .create textarea, .create select {
   width: 200px;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #FAB131;
+  border: 10px solid #FAB131;
   box-sizing: border-box;
   display: center;
 }
@@ -54,3 +55,42 @@ code {
 hr {
   background-color: #DEB887 !important;
 }
+
+/*NavBar styling*/
+
+nav {
+  background-color: #b7b3ae;
+  height: 96px;
+}
+
+#routes {
+  font-size: x-large;
+  font-family: 'Monda', sans-serif;
+}
+
+.button-even {
+  background-color: #7CB6B7;
+  color: #ffffff;
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-even:hover{
+  color: #FAB131;
+}
+
+.button-odd {
+  background-color: #FAB131;
+  color: white;
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-odd:hover{
+  color: #7CB6B7;
+}
+
