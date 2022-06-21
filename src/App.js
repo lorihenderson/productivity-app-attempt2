@@ -3,6 +3,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Monday from './components/Monday';
 // import Monday from './components/Monday'
 // import Tuesday from './components/Tuesday'
 // import Wednesday from './components/Wednesday'

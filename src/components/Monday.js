@@ -1,21 +1,16 @@
 import React from 'react'
 
-const Monday= () => {
-
-   return(
-    <div className='create'>
-        <table> TASKLIST
+const Monday = (props) => {
+    return (
+        <table className='create'>
+        <div>
+            <p style={{color: props.color}}>Hello Today is {props.children} </p>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
-                <li>Task 4</li>
-                <li>Task 5</li>
+                <li></li>
             </ul>
+        </div>
         </table>
-       
-    </div>
-   )
-}
+    )
+  }
 
 export default Monday

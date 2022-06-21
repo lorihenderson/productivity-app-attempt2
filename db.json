@@ -61,6 +61,13 @@
       "priority": "moderate",
       "day": "wednesday",
       "id": 9
+    },
+    {
+      "name": "Sleep",
+      "duration": "20 min",
+      "priority": "high",
+      "day": "monday",
+      "id": 10
     }
   ]
 }

@@ -48,25 +48,25 @@ function NavBar ( {onAddTask}) {
                     <Switch>
                     
                     <Route exact path="/Sunday">
-                        <Sunday />
+                        <Sunday> Sunday </Sunday>
                     </Route>
                     <Route exact path="/Monday">
-                        <Monday />
+                        <Monday> Monday </Monday>
                     </Route>
                     <Route exact path="/Tuesday">
-                        <Tuesday />
+                        <Tuesday> Tuesday </Tuesday>
                     </Route>
                     <Route exact path="/Wednesday">
-                        <Wednesday />
+                        <Wednesday> Wednesday </Wednesday>
                     </Route>
                     <Route exact path="/Thursday">
-                        <Thursday />
+                        <Thursday> Thursday </Thursday>
                     </Route>
                     <Route exact path="/Friday">
-                        <Friday />
+                        <Friday> Friday </Friday>
                     </Route>
                     <Route exact path="/Saturday">
-                        <Saturday />
+                        <Saturday> Saturday </Saturday>
                     </Route>
                     <Route exact path="/Form">
                         <Form setDayTask={setDayTask} onAddTask={onAddTask}/>
