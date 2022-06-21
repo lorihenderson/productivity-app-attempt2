@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Form= ({ onAddTask }) => {
+const Form= ({ onAddTask, setDayTask }) => {
     const initialState = {
         name: "",
         duration:"",
@@ -9,6 +9,8 @@ const Form= ({ onAddTask }) => {
     }
     const [formData, setFormData] = useState(initialState)
     
+    
+
    const handleChange= (e) => {
     //console.log(e.target)
     const { name, value } = e.target
@@ -30,9 +32,10 @@ const Form= ({ onAddTask }) => {
     }) 
     .then(res => res.json())
     .then(task => onAddTask(task))
-    setFormData(initialState)
-
-    window.alert("task has been added!")
+    const dataStored = setFormData(initialState)
+    // setDayTask(dataStored)
+    // console.log("day task", setDayTask)
+    // window.alert("task has been added!")
    }
 
     return(

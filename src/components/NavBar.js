@@ -1,14 +1,26 @@
-import React from 'react';
-import {NavLink} from 'react-router-dom'
+import React, { useState } from 'react';
+import {NavLink, Switch, Route} from 'react-router-dom'
+import Monday from './Monday'
+import Tuesday from './Tuesday'
+import Wednesday from './Wednesday'
+import Thursday from './Thursday'
+import Friday from './Friday'
+import Saturday from './Saturday'
+import Sunday from './Sunday'
+import Form from './Form'
 
-function NavBar () {
+function NavBar ( {onAddTask}) {
+
+    const [dayTask, setDayTask] = useState([])
+    console.log(setDayTask)
     return(
         <header>
             <nav>
                 <div id="routes">
                    <NavLink exact className="button-even" to="/">
-                        App
+                        Homepage
                     </NavLink>
+                    
                     <NavLink exact className="button-odd" to="/Monday">
                         Monday
                     </NavLink>
@@ -30,6 +42,36 @@ function NavBar () {
                     <NavLink exact className="button-odd" to="/Sunday">
                         Sunday
                     </NavLink>   
+                    <NavLink exact className="button-even" to="/Form">
+                        Form
+                    </NavLink>
+                    <Switch>
+                    
+                    <Route exact path="/Sunday">
+                        <Sunday />
+                    </Route>
+                    <Route exact path="/Monday">
+                        <Monday />
+                    </Route>
+                    <Route exact path="/Tuesday">
+                        <Tuesday />
+                    </Route>
+                    <Route exact path="/Wednesday">
+                        <Wednesday />
+                    </Route>
+                    <Route exact path="/Thursday">
+                        <Thursday />
+                    </Route>
+                    <Route exact path="/Friday">
+                        <Friday />
+                    </Route>
+                    <Route exact path="/Saturday">
+                        <Saturday />
+                    </Route>
+                    <Route exact path="/Form">
+                        <Form setDayTask={setDayTask} onAddTask={onAddTask}/>
+                    </Route>
+                    </Switch>
                 </div>
             </nav>
         </header>

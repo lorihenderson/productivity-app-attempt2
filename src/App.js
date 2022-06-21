@@ -1,5 +1,5 @@
 import './App.css';
-import Form from './components/Form'
+// import Form from './components/Form'
 import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,8 +36,8 @@ function App() {
  return (
    <div className="App">
       <div className="Screen">
-          <NavBar /> 
-          <Form onAddTask={onAddTask}/>
+          <NavBar onAddTask={onAddTask}/> 
+          {/* <Form onAddTask={onAddTask}/> */}
 
           {/* <Switch>
         <Route exact path="/">

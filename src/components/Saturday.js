@@ -1,15 +1,19 @@
 import React from 'react'
 
 const Saturday= ({ task }) => {
-    const {name, duration, priority, day} = task
-   return(
-    <div>
-        <p>{name}</p>
-        <p>{duration}</p>
-        <p>{priority}</p>
-        <p>{day}</p>
-    </div>
-   )
-}
+
+    return(
+     <div className='create'>
+         <table>Saturday TASKLIST</table>
+         <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+            </ul>
+     </div>
+    )
+ }
 
 export default Saturday
