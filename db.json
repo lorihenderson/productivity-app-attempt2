@@ -96,6 +96,13 @@
       "priority": "moderate",
       "day": "monday",
       "id": 14
+    },
+    {
+      "name": "Thursday TASK SLEEP",
+      "duration": "10 min",
+      "priority": "high",
+      "day": "thursday",
+      "id": 15
     }
   ]
 }

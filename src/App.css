@@ -41,3 +41,8 @@ table {
 .Screen {
   background-image: url("https://cdn.shopify.com/s/files/1/1935/2049/files/Ponderlily-daily-planner-monthly_1000x1000.png?v=1640765066");
  }
+
+ .homepage {
+  background-image: url(https://wallpaperaccess.com/full/3009250.jpg);
+  max-width:fit-content
+ }

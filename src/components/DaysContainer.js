@@ -1,17 +1,19 @@
 import React from "react";
-import Monday from "./Monday";
+import Days from "./Days";
 
 function DaysContainer({taskValues, day}) {
     let tasks = taskValues.filter((task) => task.day == day )
     console.log(tasks)
     tasks = tasks.map((task) => {
-        return <Monday name={task.name} />
+        return <Days name={task.name} />
     })
     return (
-        <div>
-            Days Container
+        
+        <div className="create"><table>
+            Today's Tasks
             {tasks}
-        </div>
+        </table></div>
+        
     )
 }
 
