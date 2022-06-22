@@ -54,6 +54,9 @@ table {
 
  .separate{
   border: 4px solid #7d8ecd !important;
+  font-family:Open Sans;
+  font-style:italic;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   text-align: center;
   margin-top:22px;
  }
@@ -62,4 +65,55 @@ table {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:80px auto !important;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #b9a495;
+  padding:1.6em 30px 1.2em 75px;
+  /* border-left:8px solid #78C0A8 ; */
+  line-height:1.4;
+  position: relative;
+  background:#4d7599;
+  /* color: coral; */
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
+  /* text-shadow: 1px 1px; */
+  align-items: center;
+  border-radius: 50%;
+}
+
+blockquote::before{
+  font-family:Arial;
+  /* content: "\201C"; */
+  color:#b9a495;
+  font-size:4em;
+  position: absolute;
+  left: 30px;
+  top:-10px;
+}
+
+blockquote::after{
+  font-family:Arial;
+  /* content: "\201D"; */
+  color:#b9a495;
+  font-size:4em;
+  position: absolute;
+  right: 45px;
+  bottom: -25px;
+}
+
+blockquote span{
+  display:block;
+  color:#b9a495;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.homepage {
+  height: auto;
 }

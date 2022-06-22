@@ -18,8 +18,9 @@ code {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-  background-color: #006680; opacity: 80%;
-  background-image: url(https://img.freepik.com/free-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=826);
+  background-color: white; opacity: 60%;
+  /* background-image: url("https://wallpaperaccess.com/full/3009250.jpg"); */
+  
   background-position: center;
 }
 
@@ -29,24 +30,31 @@ code {
 }
 
 .create h2 {
-  font-family:'Monda', sans-serif;
+  /* font-family:'Monda', sans-serif; */
   font-size: 30px;
+  font-family:Open Sans;
+  font-style:italic;
   color: #996633;
   margin-bottom:20px;
   margin-top: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .create input, .create textarea, .create select {
   width: 200px;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 8px solid#7d8ecd;
+  border: 8px solid#4d7599;
   box-sizing: border-box;
   display: center;
 }
 
 .taskbtn{
   background: #996633;
+  font-family:Open Sans;
+  font-style:italic;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   color: rgba(255, 255, 255, 0.872);
   border: 0;
   padding: 8px;
@@ -64,12 +72,14 @@ nav {
 #routes {
   font-size: x-large;
   font-family: 'Monda', sans-serif;
-  background-image: url(https://wallpaperaccess.com/full/3009250.jpg);
+  background-image: url("https://wallpaperaccess.com/full/3009250.jpg");
   background-position: left;
 }
 
 .button-even {
   background-color: black; opacity: 50%;
+  font-family: 'Monda', sans-serif;
+  /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
   color: white;
   padding: 30px 30px;
   text-align: center;
@@ -83,6 +93,8 @@ nav {
 
 .button-odd {
   background-color: black; opacity: 50%;
+  font-family: 'Monda', sans-serif;
+  /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
   color: white;
   padding: 30px 30px;
   text-align: center;
@@ -100,15 +112,21 @@ nav {
 
 .spanday{
   color: black;
-  margin-top:22px;
+  font-family:Open Sans;
+  font-style:italic;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
+  margin-top: 22px;
   /* background: #7d8ecd; */
   font-size: x-large;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   
 }
 
 .deletebtn{
   color: #FFFFFF !important;
+  font-family:Open Sans;
+  font-style:italic;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   padding: 4px;
   background: #996633;
   border-radius: 50px;
@@ -122,3 +140,9 @@ nav {
 
 #996633 -- brown 50% opacity
 */
+
+.form {
+  font-family:Open Sans !important;
+  font-style:italic;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black !important;
+}
