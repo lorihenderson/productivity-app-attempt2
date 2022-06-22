@@ -45,7 +45,7 @@ code {
   display: center;
 }
 
-.create button{
+.taskbtn{
   background: #996633;
   color: rgba(255, 255, 255, 0.872);
   border: 0;
@@ -99,9 +99,23 @@ nav {
 }
 
 .spanday{
-  color: #996633;
+  color: black;
   margin-top:22px;
+  /* background: #7d8ecd; */
+  font-size: x-large;
+  margin-top: 20px;
+  
 }
+
+.deletebtn{
+  color: #FFFFFF !important;
+  padding: 4px;
+  background: #996633;
+  border-radius: 50px;
+  height: 30px;
+  width: 100px;
+  font-size: small;
+ }
 /*colors we like
 
 #7CB6B7 -- seagreen blue
