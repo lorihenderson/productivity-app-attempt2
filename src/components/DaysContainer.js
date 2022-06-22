@@ -11,7 +11,7 @@ function DaysContainer({taskValues, day}) {
         
         <div className="create">
             <table>
-                {day}'s Tasks
+                <span className="spanday">{day}'s Tasks</span>
                 {tasks}
             </table>
         </div>

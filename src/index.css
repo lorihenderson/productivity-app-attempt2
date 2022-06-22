@@ -40,7 +40,7 @@ code {
   width: 200px;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 8px solid#91918e;
+  border: 8px solid#7d8ecd;
   box-sizing: border-box;
   display: center;
 }
@@ -98,6 +98,10 @@ nav {
   text-decoration: none;
 }
 
+.spanday{
+  color: #996633;
+  margin-top:22px;
+}
 /*colors we like
 
 #7CB6B7 -- seagreen blue
