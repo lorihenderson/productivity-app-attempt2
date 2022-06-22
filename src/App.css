@@ -34,7 +34,8 @@
 
 table {
   width: 370px;
-  height: 900px;
+/*   height: 900px; */
+  height: 775px;
 }
 
 .Screen {
@@ -53,6 +54,6 @@ table {
  }
 
  .separate{
-  border: 8px solid #61dafb !important;
+  border: 8px solid #7d8ecd !important;
   text-align: center;
  }
