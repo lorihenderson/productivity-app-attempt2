@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
 import {NavLink, Switch, Route} from 'react-router-dom'
-// import Monday from './Monday'
-// import Tuesday from './Tuesday'
-// import Wednesday from './Wednesday'
-// import Thursday from './Thursday'
-// import Friday from './Friday'
-// import Saturday from './Saturday'
-// import Sunday from './Sunday'
 import Form from './Form'
 import DaysContainer from './DaysContainer';
 import Homepage from './Homepage';
@@ -52,28 +45,28 @@ function NavBar ( {onAddTask, taskValues}) {
                         <Homepage/>
                     </Route>
                     <Route exact path="/Sunday">
-                        <DaysContainer taskValues={taskValues} day="sunday" />
+                        <DaysContainer taskValues={taskValues} day="Sunday" />
                     </Route>
                     <Route exact path="/Monday">
-                        <DaysContainer taskValues={taskValues} day="monday" />
+                        <DaysContainer taskValues={taskValues} day="Monday" />
                     </Route>
                     <Route exact path="/Tuesday">
-                    <DaysContainer taskValues={taskValues} day="tuesday" />
+                    <DaysContainer taskValues={taskValues} day="Tuesday" />
                     </Route>
                     <Route exact path="/Wednesday">
-                    <DaysContainer taskValues={taskValues} day="wednesday" />
+                    <DaysContainer taskValues={taskValues} day="Wednesday" />
                     </Route>
                     <Route exact path="/Thursday">
-                    <DaysContainer taskValues={taskValues} day="thursday" />
+                    <DaysContainer taskValues={taskValues} day="Thursday" />
                     </Route>
                     <Route exact path="/Friday">
-                    <DaysContainer taskValues={taskValues} day="friday" />
+                    <DaysContainer taskValues={taskValues} day="Friday" />
                     </Route>
                     <Route exact path="/Saturday">
-                    <DaysContainer taskValues={taskValues} day="saturday" />
+                    <DaysContainer taskValues={taskValues} day="Saturday" />
                     </Route>
                     <Route exact path="/Form">
-                        <Form setDayTask={setDayTask} onAddTask={onAddTask}/>
+                    <Form setDayTask={setDayTask} onAddTask={onAddTask}/>
                     </Route>
                     </Switch>
                 </div>

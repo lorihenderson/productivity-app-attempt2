@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Monday = (props, name, duration, priority) => {
+const Days = (props, name, duration, priority) => {
     return (
         // <table className='create'>
         <div>
@@ -17,4 +17,4 @@ const Monday = (props, name, duration, priority) => {
     )
   }
 
-export default Monday
+export default Days

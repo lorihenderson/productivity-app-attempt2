@@ -10,15 +10,134 @@
       "name": "Make Bed",
       "duration": "8 minutes",
       "priority": "moderate",
-      "day": "monday",
+      "day": "Monday",
       "id": 2
     },
     {
       "name": "Eat Breakfast",
       "duration": "30 minutes",
       "priority": "high",
-      "day": "monday",
+      "day": "Monday",
       "id": 3
+    },
+    {
+      "name": "Wake up",
+      "duration": "8 Hours",
+      "priority": "high",
+      "day": "Monday",
+      "id": 4
+    },
+    {
+      "name": "Take dog for a walk",
+      "duration": "45 Minutes",
+      "priority": "high",
+      "day": "Monday",
+      "id": 5
+    },
+    {
+      "name": "Drink 1 Gallon of Water ",
+      "duration": "All day",
+      "priority": "moderate",
+      "day": "Tuesday",
+      "id": 6
+    },
+    {
+      "name": "Eat to stay alive",
+      "duration": "10 Minutes",
+      "priority": "high",
+      "day": "Wednesday",
+      "id": 7
+    },
+    {
+      "name": "Build a house",
+      "duration": "1 Hour",
+      "priority": "low",
+      "day": "Thursday",
+      "id": 8
+    },
+    {
+      "name": "Study for Code Challenge",
+      "duration": "10 Minutes",
+      "priority": "low",
+      "day": "Friday",
+      "id": 9
+    },
+    {
+      "name": "Eat a snickers",
+      "duration": "5 Hours",
+      "priority": "high",
+      "day": "Saturday",
+      "id": 10
+    },
+    {
+      "name": "Pull an all nighter cramming for Code Challenge",
+      "duration": "72 Hours",
+      "priority": "high",
+      "day": "Sunday",
+      "id": 11
+    },
+    {
+      "name": "Build a door",
+      "duration": "5 Minutes",
+      "priority": "low",
+      "day": "Thursday",
+      "id": 12
+    },
+    {
+      "name": "Work on project",
+      "duration": "48 Seconds",
+      "priority": "low",
+      "day": "Saturday",
+      "id": 13
+    },
+    {
+      "name": "Eat a gallon of ice cream",
+      "duration": "2 Minutes",
+      "priority": "high",
+      "day": "Thursday",
+      "id": 14
+    },
+    {
+      "name": "Devour this box of pop tart",
+      "duration": "20 seconds or less",
+      "priority": "high",
+      "day": "Friday",
+      "id": 15
+    },
+    {
+      "name": "Take a shower",
+      "duration": "3 hours 33 minutes and 33 seconds",
+      "priority": "low",
+      "day": "Wednesday",
+      "id": 16
+    },
+    {
+      "name": "Find the meaning of life",
+      "duration": "All eternity",
+      "priority": "moderate",
+      "day": "Tuesday",
+      "id": 17
+    },
+    {
+      "name": "Cherish the little things in life",
+      "duration": "2 seconds every hour",
+      "priority": "low",
+      "day": "Thursday",
+      "id": 18
+    },
+    {
+      "name": "Work on blog",
+      "duration": "1 Minute 3 Seconds",
+      "priority": "high",
+      "day": "Friday",
+      "id": 19
+    },
+    {
+      "name": "Drink water",
+      "duration": "1 Minute and 45 Seconds",
+      "priority": "low",
+      "day": "Tuesday",
+      "id": 20
     }
   ]
 }

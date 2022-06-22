@@ -34,6 +34,7 @@
 
 table {
   width: 370px;
+/*   height: 900px; */
   height: 775px;
 }
 
@@ -43,7 +44,7 @@ table {
 
  .homepage {
   background-image: url(https://wallpaperaccess.com/full/3009250.jpg);
-  height: 700px;
+  height: 1000px;
   background-position: center;
   
  }

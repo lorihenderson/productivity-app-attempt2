@@ -9,10 +9,7 @@ const Form= ({ onAddTask, setDayTask }) => {
     }
     const [formData, setFormData] = useState(initialState)
     
-    
-
-   const handleChange= (e) => {
-    //console.log(e.target)
+    const handleChange= (e) => {
     const { name, value } = e.target
 
     setFormData((previousFormData) => ({...previousFormData, [name]:value}))
@@ -31,12 +28,9 @@ const Form= ({ onAddTask, setDayTask }) => {
                 body: JSON.stringify(formData) 
     }) 
     .then(res => res.json())
-    // .then(data => console.log(data))
     .then(task => onAddTask(task))
     const dataStored = setFormData(initialState)
-    // setDayTask(dataStored)
-    // console.log("day task", setDayTask)
-    // window.alert("task has been added!")
+   
    }
 
     return(
@@ -66,13 +60,13 @@ const Form= ({ onAddTask, setDayTask }) => {
                 <select
                     id='day' name='day' onChange={handleChange} value={formData.day}>
                     <option value='select-day'>Select day</option>
-                    <option value='sunday'>Sunday</option>
-                    <option value='monday'>Monday</option>
-                    <option value='tuesday'>Tuesday</option>
-                    <option value='wednesday'>Wednesday</option>
-                    <option value='thursday'>Thursday</option>
-                    <option value='friday'>Friday</option>
-                    <option value='saturday'>Saturday</option>
+                    <option value='Sunday'>Sunday</option>
+                    <option value='Monday'>Monday</option>
+                    <option value='Tuesday'>Tuesday</option>
+                    <option value='Wednesday'>Wednesday</option>
+                    <option value='Thursday'>Thursday</option>
+                    <option value='Friday'>Friday</option>
+                    <option value='Saturday'>Saturday</option>
                 </select>
                 <div></div>
                 <button type="submit" className="taskbtn">Add</button>
