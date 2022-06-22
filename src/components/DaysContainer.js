@@ -1,17 +1,17 @@
 import React from "react";
 import Days from "./Days";
 
-function DaysContainer({taskValues, day}) {
+function DaysContainer({taskValues, day, handleDelete}) {
     let tasks = taskValues.filter((task) => task.day === day )
     console.log(tasks)
     tasks = tasks.map((task) => {
-        return <Days name={task.name} duration={task.duration} priority={task.priority}/>
+        return <Days handleDelete={handleDelete} key={task.id} task={task}/>
     })
     return (
         
         <div className="create">
             <table>
-                {day}'s Tasks
+                <span className="spanday">{day}'s Tasks</span>
                 {tasks}
             </table>
         </div>
