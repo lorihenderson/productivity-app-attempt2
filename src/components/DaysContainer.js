@@ -2,7 +2,7 @@ import React from "react";
 import Days from "./Days";
 
 function DaysContainer({taskValues, day}) {
-    let tasks = taskValues.filter((task) => task.day == day )
+    let tasks = taskValues.filter((task) => task.day === day )
     console.log(tasks)
     tasks = tasks.map((task) => {
         return <Days name={task.name} duration={task.duration} priority={task.priority}/>
@@ -11,7 +11,7 @@ function DaysContainer({taskValues, day}) {
         
         <div className="create">
             <table>
-                Today's Tasks
+                {day}'s Tasks
                 {tasks}
             </table>
         </div>
