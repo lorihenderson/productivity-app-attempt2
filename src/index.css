@@ -42,13 +42,13 @@ code {
 }
 
 .create input, .create textarea, .create select {
-  width: 200px;
+  width: 225px;
   padding: 6px 10px;
   margin: 10px 0;
   border: 8px solid#4d7599;
   box-sizing: border-box;
   display: center;
-  /* background-color: none; opacity: 30%; */
+  background-color: none; opacity: 60%;
 }
 
 .taskbtn{
@@ -147,4 +147,9 @@ nav {
   font-family:'Monda', sans-serif!important;
   /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
   color:#dfbb93;
+}
+
+.select-text {
+  text-align: center;
+  display: flex;
 }

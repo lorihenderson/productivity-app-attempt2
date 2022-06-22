@@ -51,7 +51,7 @@ const Form= ({ onAddTask, setDayTask }) => {
                 <label>Priority:</label>
                 <select
                     id='priority' name='priority' onChange={handleChange} value={formData.priority} >
-                    <option value='select-priority'>Select priority level</option>
+                    <option className="select-text" value='select-priority'>-S e l e c t-</option>
                     <option value='high'>High</option>
                     <option value='moderate'>Moderate</option>
                     <option value='low'>Low</option>
@@ -59,7 +59,7 @@ const Form= ({ onAddTask, setDayTask }) => {
                 <label>Day:</label>
                 <select
                     id='day' name='day' onChange={handleChange} value={formData.day}>
-                    <option value='select-day'>Select day</option>
+                    <option className="select-text" value='select-day'>-S e l e c t-</option>
                     <option value='Sunday'>Sunday</option>
                     <option value='Monday'>Monday</option>
                     <option value='Tuesday'>Tuesday</option>
