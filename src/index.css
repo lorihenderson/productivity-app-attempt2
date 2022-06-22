@@ -18,7 +18,7 @@ code {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-  background-color: white; opacity: 60%;
+  background-color: none;
   /* background-image: url("https://wallpaperaccess.com/full/3009250.jpg"); */
   
   background-position: center;
@@ -31,10 +31,10 @@ code {
 
 .create h2 {
   /* font-family:'Monda', sans-serif; */
-  font-size: 30px;
+  font-size: 60px;
   font-family:Open Sans;
   font-style:italic;
-  color: #996633;
+  color: #b9a495;
   margin-bottom:20px;
   margin-top: 20px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -51,7 +51,7 @@ code {
 }
 
 .taskbtn{
-  background: #996633;
+  background: #4d7599;
   font-family:Open Sans;
   font-style:italic;
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
@@ -111,25 +111,25 @@ nav {
 }
 
 .spanday{
-  color: black;
+  color: #b9a495;
   font-family:Open Sans;
   font-style:italic;
-  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-top: 22px;
   /* background: #7d8ecd; */
-  font-size: x-large;
+  font-size: 49.2px
   /* margin-top: 20px; */
   
 }
 
 .deletebtn{
-  color: #FFFFFF !important;
-  font-family:Open Sans;
+  color:#b9a495 !important;
+  font-family: 'Monda', sans-serif;
   font-style:italic;
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   padding: 4px;
-  background: #996633;
-  border-radius: 50px;
+  background: #4d7599;
+  /* border-radius: 50px; */
   height: 30px;
   width: 100px;
   font-size: small;
@@ -142,7 +142,7 @@ nav {
 */
 
 .form {
-  font-family:Open Sans !important;
-  font-style:italic;
-  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black !important;
+  font-family:'Monda', sans-serif!important;
+  /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
+  color:#dfbb93;
 }

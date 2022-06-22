@@ -12,7 +12,7 @@ const Days = ({task, handleDelete}) => {
                     <h4>Duration: {duration}</h4>
                     <h4>Priority: {priority}</h4>
                     </li>
-                    <button className="deletebtn" onClick={()=>handleDelete(id)}>Delete Task</button> 
+                    <button className="deletebtn" onClick={()=>handleDelete(id)}>X</button> 
                 </ul>  
         </div>
         // </table>
