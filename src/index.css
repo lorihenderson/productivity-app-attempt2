@@ -48,6 +48,7 @@ code {
   border: 8px solid#4d7599;
   box-sizing: border-box;
   display: center;
+  /* background-color: none; opacity: 30%; */
 }
 
 .taskbtn{
@@ -125,14 +126,15 @@ nav {
 .deletebtn{
   color:#b9a495 !important;
   font-family: 'Monda', sans-serif;
-  font-style:italic;
+  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   padding: 4px;
   background: #4d7599;
   /* border-radius: 50px; */
-  height: 30px;
-  width: 100px;
+  height: 27px;
+  width: 27px;
   font-size: small;
+  display: flex;
  }
 /*colors we like
 

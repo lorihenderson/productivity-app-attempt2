@@ -75,6 +75,13 @@
       "priority": "low",
       "day": "Tuesday",
       "id": 20
+    },
+    {
+      "name": "Enjoy this twix bar",
+      "duration": "10 Minutes",
+      "priority": "high",
+      "day": "Wednesday",
+      "id": 21
     }
   ]
 }
