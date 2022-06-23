@@ -24,6 +24,12 @@ code {
   background-position: center;
 }
 
+/*form width and height on Add a Task*/
+table {
+  width: 470px;
+  height: 900px;
+}
+
 .create label {
   text-align:center;
   display: block;
@@ -31,7 +37,7 @@ code {
 
 .create h2 {
   /* font-family:'Monda', sans-serif; */
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Julius Sans One', sans-serif;
   /* font-style:italic; */
   color: #b9a495;
@@ -51,6 +57,24 @@ code {
   background-color: transparent;
   color: #dfbb93;
   
+}
+
+.form {
+  font-family: 'Julius Sans One', sans-serif;
+  /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
+  color:#dfbb93;
+}
+
+.select-text {
+  text-align: center;
+  display: flex;
+}
+
+.dropdown-text{
+  text-align: center;
+  display: flex;
+  background-color: black;
+  max-height: max-content;
 }
 
 .taskbtn{
@@ -99,54 +123,25 @@ nav {
 ::marker {
   text-decoration: none;
 }
+/*days of the week Title*/
 
 .spanday{
   color: #b9a495;
-  /* font-family:Open Sans; */
   font-family: 'Julius Sans One', sans-serif;
-  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-top: 22px;
-  /* background: #7d8ecd; */
-  font-size: 39.2px
-  /* margin-top: 20px; */
+  font-size: 39.2px;
   
 }
 
 .deletebtn{
   color:#b9a495 !important;
   font-family: 'Monda', sans-serif;
-  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   padding: 4px;
   background: #4d7599;
-  /* border-radius: 50px; */
   height: 27px;
   width: 27px;
   font-size: small;
   display: flex;
  }
-/*colors we like
-
-#7CB6B7 -- seagreen blue
-
-#996633 -- brown 50% opacity
-*/
-
-.form {
-  font-family: 'Julius Sans One', sans-serif;
-  /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
-  color:#dfbb93;
-}
-
-.select-text {
-  text-align: center;
-  display: flex;
-}
-
-.dropdown-text{
-  text-align: center;
-  display: flex;
-  background-color: black;
-  max-height: max-content;
-}
