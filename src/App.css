@@ -53,8 +53,9 @@ table {
  }
 
  .separate{
-  border: 2px solid #4d7599 !important;
-  font-family:'Monda', sans-serif;
+  border: 8px solid #4d7599 !important;
+  font-family: 'Julius Sans One', sans-serif;
+  /* font-family:'Monda', sans-serif; */
   /* font-style:italic; */
   /* text-shadow: -1px 0 #4b7396, 0 1px #4b7396, 1px 0 #4b7396, 0 -1px #4b7396; */
   color:  #dfbb93;
@@ -69,12 +70,12 @@ table {
 }
 
 blockquote{
-  font-size: 1.4em;
-  width:60%;
-  margin:80px auto !important;
-  font-family:Open Sans;
-  font-style:italic;
-  color: #b9a495;
+  font-size: 42px;
+  width:50%;
+  margin:67px auto !important;
+  font-family: 'Great Vibes', cursive;
+  /* font-style:italic; */
+  color:#dfbb93;
   padding:1.6em 30px 1.2em 75px;
   /* border-left:8px solid #78C0A8 ; */
   line-height:1.4;
@@ -84,7 +85,14 @@ blockquote{
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   /* text-shadow: 1px 1px; */
   align-items: center;
-  border-radius: 50%;
+  border-radius: 20%;
+  /* box-shadow: 15px black; */
+  /* border-style: inset; */
+  /* border-top-color:black;
+  border-bottom-color: black;
+  border-right-color: black;
+  border-left-color: black; */
+  /* border-width: 8px; */
 }
 
 blockquote::before{

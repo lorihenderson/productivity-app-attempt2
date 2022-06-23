@@ -52,21 +52,21 @@ const Form= ({ onAddTask, setDayTask }) => {
                 <select
                     id='priority' name='priority' onChange={handleChange} value={formData.priority} >
                     <option className="select-text" value='select-priority'>-S e l e c t-</option>
-                    <option value='high'>High</option>
-                    <option value='moderate'>Moderate</option>
-                    <option value='low'>Low</option>
+                    <option className='dropdown-text' value='high'>H i g h</option>
+                    <option className='dropdown-text' value='moderate'>M o d e r a t e</option>
+                    <option className='dropdown-text' value='low'>L o w</option>
                 </select>
                 <label>Day:</label>
                 <select
                     id='day' name='day' onChange={handleChange} value={formData.day}>
                     <option className="select-text" value='select-day'>-S e l e c t-</option>
-                    <option value='Sunday'>Sunday</option>
-                    <option value='Monday'>Monday</option>
-                    <option value='Tuesday'>Tuesday</option>
-                    <option value='Wednesday'>Wednesday</option>
-                    <option value='Thursday'>Thursday</option>
-                    <option value='Friday'>Friday</option>
-                    <option value='Saturday'>Saturday</option>
+                    <option className='dropdown-text' value='Sunday'>S u n d a y</option>
+                    <option className='dropdown-text' value='Monday'>M o n d a y</option>
+                    <option className='dropdown-text' value='Tuesday'>T u e s d a y</option>
+                    <option className='dropdown-text' value='Wednesday'>W e d n e s d a y</option>
+                    <option className='dropdown-text' value='Thursday'>T h u r s d a y</option>
+                    <option className='dropdown-text' value='Friday'>F r i d a y</option>
+                    <option className='dropdown-text' value='Saturday'>S a t u r d a y</option>
                 </select>
                 <div></div>
                 <button type="submit" className="taskbtn">Add</button>

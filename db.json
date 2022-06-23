@@ -28,13 +28,6 @@
       "id": 4
     },
     {
-      "name": "Take dog for a walk",
-      "duration": "45 Minutes",
-      "priority": "high",
-      "day": "Monday",
-      "id": 5
-    },
-    {
       "name": "Pull an all nighter cramming for Code Challenge",
       "duration": "72 Hours",
       "priority": "high",

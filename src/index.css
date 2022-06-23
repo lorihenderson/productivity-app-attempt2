@@ -15,7 +15,7 @@ code {
 
 /* blog form */
 .create{
-  max-width: 400px;
+  max-width: 495px;
   margin: 0 auto;
   text-align: center;
   background-color: none;
@@ -32,8 +32,8 @@ code {
 .create h2 {
   /* font-family:'Monda', sans-serif; */
   font-size: 60px;
-  font-family:Open Sans;
-  font-style:italic;
+  font-family: 'Julius Sans One', sans-serif;
+  /* font-style:italic; */
   color: #b9a495;
   margin-bottom:20px;
   margin-top: 20px;
@@ -48,13 +48,15 @@ code {
   border: 8px solid#4d7599;
   box-sizing: border-box;
   display: center;
-  background-color: none; opacity: 60%;
+  background-color: transparent;
+  color: #dfbb93;
+  
 }
 
 .taskbtn{
   background: #4d7599;
-  font-family:Open Sans;
-  font-style:italic;
+  font-family: 'Julius Sans One', sans-serif;
+  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   color: rgba(255, 255, 255, 0.872);
   border: 0;
@@ -78,10 +80,10 @@ nav {
 }
 
 .button-even {
-  background-color: black; opacity: 50%;
-  font-family: 'Monda', sans-serif;
+  background-color: black;
+  font-family: 'Julius Sans One', sans-serif;
   /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
-  color: white;
+  color:#dfbb93;
   padding: 30px 30px;
   text-align: center;
   text-decoration: none;
@@ -89,14 +91,16 @@ nav {
 }
 
 .button-even:hover{
-  color: #FAB131;
+  color: #909194
+
+
 }
 
 .button-odd {
-  background-color: black; opacity: 50%;
-  font-family: 'Monda', sans-serif;
+  background-color: black;
+  font-family: 'Julius Sans One', sans-serif;
   /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
-  color: white;
+  color:#dfbb93;
   padding: 30px 30px;
   text-align: center;
   text-decoration: none;
@@ -104,7 +108,9 @@ nav {
 }
 
 .button-odd:hover{
-  color: #7CB6B7;
+  color: #909194
+
+
 }
 
 ::marker {
@@ -113,12 +119,13 @@ nav {
 
 .spanday{
   color: #b9a495;
-  font-family:Open Sans;
-  font-style:italic;
+  /* font-family:Open Sans; */
+  font-family: 'Julius Sans One', sans-serif;
+  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-top: 22px;
   /* background: #7d8ecd; */
-  font-size: 49.2px
+  font-size: 39.2px
   /* margin-top: 20px; */
   
 }
@@ -144,7 +151,7 @@ nav {
 */
 
 .form {
-  font-family:'Monda', sans-serif!important;
+  font-family: 'Julius Sans One', sans-serif;
   /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
   color:#dfbb93;
 }
@@ -152,4 +159,11 @@ nav {
 .select-text {
   text-align: center;
   display: flex;
+}
+
+.dropdown-text{
+  text-align: center;
+  display: flex;
+  background-color: black;
+  max-height: max-content;
 }
