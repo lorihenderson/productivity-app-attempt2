@@ -43,7 +43,7 @@ table {
   color: #b9a495;
   margin-bottom:20px;
   margin-top: 20px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
 
 }
 
@@ -61,7 +61,7 @@ table {
 
 .form {
   font-family: 'Julius Sans One', sans-serif;
-  /* text-shadow: -1px 0 black 0 1px white, 1px 0 black, 0 -1px black !important; */
+  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   color:#dfbb93;
 }
 
@@ -80,7 +80,6 @@ table {
 .taskbtn{
   background: #4d7599;
   font-family: 'Julius Sans One', sans-serif;
-  /* font-style:italic; */
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   color: rgba(255, 255, 255, 0.872);
   border: 0;
@@ -136,9 +135,8 @@ nav {
 
 .deletebtn{
   color:#b9a495 !important;
-  font-family: 'Monda', sans-serif;
-  text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
-  padding: 4px;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 6px;
   background: #4d7599;
   height: 27px;
   width: 27px;

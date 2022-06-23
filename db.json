@@ -49,13 +49,6 @@
       "id": 15
     },
     {
-      "name": "Cherish the little things in life",
-      "duration": "2 seconds every hour",
-      "priority": "low",
-      "day": "Thursday",
-      "id": 18
-    },
-    {
       "name": "Work on blog",
       "duration": "1 Minute 3 Seconds",
       "priority": "high",
@@ -75,6 +68,34 @@
       "priority": "high",
       "day": "Wednesday",
       "id": 21
+    },
+    {
+      "name": "Create better css than victor",
+      "duration": "9 days",
+      "priority": "high",
+      "day": "Thursday",
+      "id": 22
+    },
+    {
+      "name": "Go to movies",
+      "duration": "3 hours",
+      "priority": "high",
+      "day": "Wednesday",
+      "id": 23
+    },
+    {
+      "name": "play video games",
+      "duration": "7 hours",
+      "priority": "moderate",
+      "day": "Saturday",
+      "id": 24
+    },
+    {
+      "name": "take a walk",
+      "duration": "1 hour",
+      "priority": "high",
+      "day": "Saturday",
+      "id": 25
     }
   ]
 }

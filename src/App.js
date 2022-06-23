@@ -2,7 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import InitialTransition from './components/InitialTransition';
+
 
 
 function App() {
@@ -31,7 +31,6 @@ function App() {
    <div className="App">
       <div className="Screen">
           <NavBar handleDelete={handleDelete} onAddTask={onAddTask} taskValues={taskValues} /> 
-          <InitialTransition />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import {NavLink, Switch, Route} from 'react-router-dom'
 import Form from './Form'
 import DaysContainer from './DaysContainer';
 import Homepage from './Homepage';
-import InitialTransition from './InitialTransition';
+
 
 
 function NavBar ( {onAddTask, taskValues, handleDelete}) {
