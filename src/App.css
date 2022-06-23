@@ -39,6 +39,7 @@ table {
 
 .Screen {
   background-image: url("https://cdn.shopify.com/s/files/1/1935/2049/files/Ponderlily-daily-planner-monthly_1000x1000.png?v=1640765066");
+  
  }
 
  .homepage {
@@ -71,8 +72,8 @@ table {
 
 blockquote{
   font-size: 42px;
-  width:50%;
-  margin:67px auto !important;
+  width:40%;
+  margin:40px auto !important;
   font-family: 'Great Vibes', cursive;
   /* font-style:italic; */
   color:#dfbb93;
@@ -80,12 +81,13 @@ blockquote{
   /* border-left:8px solid #78C0A8 ; */
   line-height:1.4;
   position: relative;
-  background:#4d7599;
+  background:#4d7599; opacity: 90%;
   /* color: coral; */
   text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black;
   /* text-shadow: 1px 1px; */
   align-items: center;
   border-radius: 20%;
+  box-shadow: 10px 16px rgb(56, 56, 56);
   /* box-shadow: 15px black; */
   /* border-style: inset; */
   /* border-top-color:black;

@@ -1,20 +1,29 @@
 import React from "react";
 import Days from "./Days";
+import { motion, AnimatePresence } from "framer-motion"
+
 
 function DaysContainer({taskValues, day, handleDelete}) {
+   
     let tasks = taskValues.filter((task) => task.day === day )
-    console.log(tasks)
     tasks = tasks.map((task) => {
         return <Days handleDelete={handleDelete} key={task.id} task={task}/>
     })
     return (
         
-        <div className="create">
-            <table>
+    <AnimatePresence>
+        <motion.table className="create" 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        >
+           
                 <span className="spanday">{day}'s Tasks</span>
                 {tasks}
-            </table>
-        </div>
+           
+        </motion.table> 
+    </AnimatePresence>
+        
         
     )
 }

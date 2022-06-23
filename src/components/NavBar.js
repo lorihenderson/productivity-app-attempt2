@@ -3,6 +3,8 @@ import {NavLink, Switch, Route} from 'react-router-dom'
 import Form from './Form'
 import DaysContainer from './DaysContainer';
 import Homepage from './Homepage';
+import InitialTransition from './InitialTransition';
+
 
 function NavBar ( {onAddTask, taskValues, handleDelete}) {
 
@@ -12,34 +14,35 @@ function NavBar ( {onAddTask, taskValues, handleDelete}) {
         <header>
             <nav>
                 <div id="routes">
-                   <NavLink exact className="button-odd" to="/">
+                   <NavLink exact className="nav-btn" to="/">
                         Homepage
                     </NavLink>
                     
-                    <NavLink exact className="button-even" to="/Form">
+                    <NavLink exact className="nav-btn" to="/Form">
                         Add A Task
                     </NavLink>
-                    <NavLink exact className="button-odd" to="/Monday">
+                    <NavLink exact className="nav-btn" to="/Monday">
                         Monday
                     </NavLink>
-                    <NavLink exact className="button-even" to="/Tuesday">
+                    <NavLink exact className="nav-btn" to="/Tuesday">
                         Tuesday
                     </NavLink>
-                    <NavLink exact className="button-odd" to="/Wednesday">
+                    <NavLink exact className="nav-btn" to="/Wednesday">
                         Wednesday
                     </NavLink>
-                    <NavLink exact className="button-even" to="/Thursday">
+                    <NavLink exact className="nav-btn" to="/Thursday">
                         Thursday
                     </NavLink>   
-                    <NavLink exact className="button-odd" to="/Friday">
+                    <NavLink exact className="nav-btn" to="/Friday">
                         Friday
                     </NavLink>   
-                    <NavLink exact className="button-even" to="/Saturday">
+                    <NavLink exact className="nav-btn" to="/Saturday">
                         Saturday
                     </NavLink>   
-                    <NavLink exact className="button-odd" to="/Sunday">
+                    <NavLink exact className="nav-btn" to="/Sunday">
                         Sunday
-                    </NavLink>   
+                    </NavLink> 
+               
                     <Switch>
                     <Route exact path="/">
                         <Homepage/>
@@ -69,6 +72,7 @@ function NavBar ( {onAddTask, taskValues, handleDelete}) {
                     <Form setDayTask={setDayTask} onAddTask={onAddTask}/>
                     </Route>
                     </Switch>
+                
                 </div>
             </nav>
         </header>

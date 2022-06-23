@@ -1,11 +1,21 @@
 import React from 'react'
+import { motion, AnimatePresence } from "framer-motion"
+
 
 const Days = ({task, handleDelete}) => {
     const {name, priority, duration, id} = task
     return (
         // <table className='create'>
-        <div>
-                <ul>
+        
+        <AnimatePresence>
+
+              <motion.ul 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              >
+   
+              
                     
                   <li className="separate">
                   <button className="deletebtn" onClick={()=>handleDelete(id)}>X</button> 
@@ -14,8 +24,10 @@ const Days = ({task, handleDelete}) => {
                     <h4>Priority: {priority}</h4>
                   </li>
                     
-                </ul>  
-        </div>
+                 
+              </motion.ul> 
+        </AnimatePresence>
+        
         // </table>
     )
   }

@@ -79,7 +79,7 @@ nav {
   background-position: left;
 }
 
-.button-even {
+.nav-btn {
   background-color: black;
   font-family: 'Julius Sans One', sans-serif;
   /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
@@ -90,24 +90,7 @@ nav {
   display: inline-block;
 }
 
-.button-even:hover{
-  color: #909194
-
-
-}
-
-.button-odd {
-  background-color: black;
-  font-family: 'Julius Sans One', sans-serif;
-  /* text-shadow: -1px 0 black, 0 1px #b9a495, 1px 0 #b9a495, 0 -1px black; */
-  color:#dfbb93;
-  padding: 30px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.button-odd:hover{
+.nav-btn:hover{
   color: #909194
 
 

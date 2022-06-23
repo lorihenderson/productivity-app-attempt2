@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 function App() {
   const [taskValues, setTaskValues] = useState([])
 
@@ -30,6 +31,7 @@ function App() {
    <div className="App">
       <div className="Screen">
           <NavBar handleDelete={handleDelete} onAddTask={onAddTask} taskValues={taskValues} /> 
+          
       </div>
     </div>
   );

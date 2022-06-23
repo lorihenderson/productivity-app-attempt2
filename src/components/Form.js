@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion, AnimatePresence } from "framer-motion"
 
 const Form= ({ onAddTask, setDayTask }) => {
     const initialState = {
@@ -13,7 +14,6 @@ const Form= ({ onAddTask, setDayTask }) => {
     const { name, value } = e.target
 
     setFormData((previousFormData) => ({...previousFormData, [name]:value}))
-    console.log(formData)
    };
 
    const handleSubmit = (e) => {
@@ -34,7 +34,13 @@ const Form= ({ onAddTask, setDayTask }) => {
    }
 
     return(
-        <div className='create'>
+        <AnimatePresence>
+            <motion.div className='create'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            >
+       
             <table>
             <h2>Add a Task</h2><div>
             <form className='form' autoComplete='off' onSubmit={handleSubmit} >
@@ -74,7 +80,9 @@ const Form= ({ onAddTask, setDayTask }) => {
             </form>
             </div>
             </table>
-        </div>
+            </motion.div>
+        </AnimatePresence>
+        
     )
 }
 
