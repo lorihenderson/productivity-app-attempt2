@@ -12,6 +12,7 @@ const Days = ({task, handleDelete}) => {
               <motion.ul 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
+              transition={{ delay: .4 }}
               exit={{ opacity: 0 }}
               >
    

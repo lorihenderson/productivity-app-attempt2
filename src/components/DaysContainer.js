@@ -15,11 +15,12 @@ function DaysContainer({taskValues, day, handleDelete}) {
         <motion.table className="create" 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        transition={{ delay: .4 }}
         exit={{ opacity: 0 }}
         >
            
-                <span className="spanday">{day}'s Tasks</span>
-                {tasks}
+            <span className="spanday">{day}'s Tasks</span>
+            {tasks}
            
         </motion.table> 
     </AnimatePresence>
