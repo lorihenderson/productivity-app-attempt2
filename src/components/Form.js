@@ -29,7 +29,7 @@ const Form= ({ onAddTask, setDayTask }) => {
     }) 
     .then(res => res.json())
     .then(task => onAddTask(task))
-    const dataStored = setFormData(initialState)
+    setFormData(initialState)
    
    }
 

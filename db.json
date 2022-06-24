@@ -28,13 +28,6 @@
       "id": 4
     },
     {
-      "name": "Pull an all nighter cramming for Code Challenge",
-      "duration": "72 Hours",
-      "priority": "high",
-      "day": "Sunday",
-      "id": 11
-    },
-    {
       "name": "Work on project",
       "duration": "48 Seconds",
       "priority": "low",
@@ -96,6 +89,20 @@
       "priority": "high",
       "day": "Saturday",
       "id": 25
+    },
+    {
+      "name": "Look for jobs",
+      "duration": "2 hours",
+      "priority": "high",
+      "day": "Sunday",
+      "id": 26
+    },
+    {
+      "name": "Complete labs",
+      "duration": "6 hours",
+      "priority": "moderate",
+      "day": "Sunday",
+      "id": 27
     }
   ]
 }
